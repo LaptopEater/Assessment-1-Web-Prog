@@ -1,0 +1,132 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+/* Header */
+header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #172d67;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Welcome Section */
+.welcome {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+/* Line Up Section */
+.line-up {
+    background-color: rgb(33, 37, 142);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.line-up h2 {
+    color: white;
+    text-decoration: underline;
+
+}
+.line-up p,
+.line-up ul {
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+/* Study Planner Section */
+.study-plan {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.column {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    width: 18%;
+    text-align: center;
+}
+
+button.add-task {
+    background-color: #8c15e9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.add-task:hover {
+    background-color: #6b10b5;
+}
+
+/* Footer */
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
